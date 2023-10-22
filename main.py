@@ -2,6 +2,7 @@ import flet as ft
 import Gpt_core
 
 
+
 tf_user = ft.TextField(label="User Input",bgcolor='#39914d',color='#080808', width=300, height=300, multiline=True, max_lines=9, min_lines=9,
                        border_radius=15)
 
