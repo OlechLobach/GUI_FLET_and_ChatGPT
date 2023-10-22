@@ -40,7 +40,7 @@ def create_row_3():
     )
 
 def main(page: ft.Page):
-    # Налаштовуємо властивості сторінки
+
     page.title = "FletGpt"
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
     page.bgcolor = '#1e542b'
