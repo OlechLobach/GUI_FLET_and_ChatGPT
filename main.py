@@ -54,7 +54,6 @@ def main(page: ft.Page):
         text_gpt.update()
         page.update()
 
-    # Створюємо кнопку "Send" та рядок для неї
     bt = ft.ElevatedButton(text="Send", bgcolor='#39914d',color='#080808', width=300, height=50,elevation=8, on_click=click_button)
     row = ft.Row([
         bt,
